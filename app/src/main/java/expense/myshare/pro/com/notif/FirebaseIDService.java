@@ -23,6 +23,5 @@ public class FirebaseIDService extends FirebaseInstanceIdService {
     }
 
     private void sendRegistrationToServer(String refreshedToken) {
-        Toast.makeText(this, "your token "+refreshedToken, Toast.LENGTH_SHORT).show();
     }
 }
